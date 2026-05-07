@@ -1,5 +1,7 @@
 # StylusScroll
 
+This is the only sentence I wrote by myself, everything else is written by Claude Sonnet 4.6, so yea this is a Vibe-Coded but the broke version, because I don't have access to Claude Code LMAO. I hope the software works for your scenario. I don't know how to fix bugs, so if you find any bugs, just lemme know, I just gonna throw it into Claude and hope it works. Good luck and have a nice day!
+
 **Middle-click drag → system scroll for drawing tablets on macOS.**
 
 If you use a drawing tablet (XP-PEN, Huion, Wacom, etc.) you've probably noticed that holding the middle button and dragging does nothing in Safari, Finder, or most apps — even though it works fine in apps like DaVinci Resolve that handle raw tablet input themselves.
