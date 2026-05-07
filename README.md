@@ -1,6 +1,10 @@
 # StylusScroll
 
-This is the only sentence I wrote by myself, everything else is written by Claude Sonnet 4.6, so yea this is a Vibe-Coded but the broke version, because I don't have access to Claude Code LMAO. I hope the software works for your scenario. I don't know how to fix bugs, so if you find any bugs, just lemme know, I just gonna throw it into Claude and hope it works. Good luck and have a nice day!
+Yep, this is a completely vibe-coded software that Claude Sonnet 4.6 wrote in collaboration with my prompts. I just realized the gap in MacOS, that it actually doesn't seem to use the middle click anymore in most Apps, but then I was editing with Davinci Resolve to realize that the button combination is usable, but macOS seems to just ignore it. So I was thinking how can I use the same gesture that I typically use in Resolve to be used into the standard use of macOS, and voila, after painfully chatting back and forth with Claude, and keeping fixing the broken parts of the code, I finally managed to get it working to the state that I can proudly send to the world. I hope this software helps you with whatever endeavor you are going to do with it.
+
+Anything after this section was written by Claude
+
+---
 
 **Middle-click drag → system scroll for drawing tablets on macOS.**
 
