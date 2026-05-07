@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  IMPORTANT: StylusScroll CANNOT be sandboxed.
+  CGEvent.tapCreate with .cgSessionEventTap requires the app to run outside
+  the App Sandbox. This means distribution must be:
+    - Direct sale (your website, Gumroad, Lemon Squeezy) with notarization, OR
+    - Mac App Store using a Privileged Helper Tool (complex, not recommended for v1)
+
+  For direct distribution:
+    1. Sign with a Developer ID Application certificate
+    2. Notarize with `notarytool` (Xcode 14+)
+    3. Staple the notarization ticket
+    => Users can install without Gatekeeper warnings
+-->
+<plist version="1.0">
+<dict>
+    <!-- No App Sandbox -->
+    <key>com.apple.security.app-sandbox</key>
+    <false/>
+
+    <!-- Hardened Runtime must still be ON for notarization -->
+    <key>com.apple.security.cs.allow-jit</key>
+    <false/>
+    <key>com.apple.security.cs.allow-unsigned-executable-memory</key>
+    <false/>
+    <key>com.apple.security.cs.disable-library-validation</key>
+    <false/>
+</dict>
+</plist>
