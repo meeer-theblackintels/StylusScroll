@@ -106,6 +106,7 @@ git clone https://github.com/meeer-theblackintels/StylusScroll.git
 
 | Version | Changes |
 |---|---|
+| v0.32.1 | System shortcuts support via osascript (Mission Control, Show Desktop, etc.), requires Automation permission on first use |
 | v0.32 | OpenTabletDriver support, momentum ghost cursor fix |
 | v0.31 | App blocklist, key mappings, edit mappings fix |
 
